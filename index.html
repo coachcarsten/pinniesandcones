@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>@Pinnies and Cones</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    background:#ffffff;
+    color:#222;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    max-width:900px;
+    width:100%;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.logo{
+    width:min(650px,90%);
+    height:auto;
+    margin:0 auto 40px;
+    display:block;
+    filter:none;
+}
+
+.tagline{
+    font-size:1.35rem;
+    font-weight:600;
+    color:#444;
+    margin-bottom:50px;
+}
+
+.socials{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.social-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:16px 32px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+    font-size:1rem;
+    transition:.25s ease;
+    color:white;
+    min-width:220px;
+}
+
+.social-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 25px rgba(0,0,0,.18);
+}
+
+.facebook{
+    background:#1877F2;
+}
+
+.instagram{
+    background:linear-gradient(
+        45deg,
+        #f58529,
+        #dd2a7b,
+        #8134af,
+        #515bd4
+    );
+}
+
+.footer{
+    margin-top:45px;
+    color:#777;
+    font-size:.9rem;
+}
+
+@media(max-width:600px){
+
+.tagline{
+    font-size:1.1rem;
+}
+
+.social-btn{
+    width:100%;
+    max-width:320px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="logo.png" alt="@Pinnies and Cones Logo" class="logo">
+
+    <div class="tagline">
+        Coaching is hard. We make it funny.
+    </div>
+
+    <div class="socials">
+
+        <a class="social-btn facebook"
+           href="https://facebook.com/Pinniesandcones"
+           target="_blank">
+            👍 Facebook
+        </a>
+
+        <a class="social-btn instagram"
+           href="https://instagram.com/pinniesandcones"
+           target="_blank">
+            📸 Instagram
+        </a>
+
+    </div>
+
+    <div class="footer">
+        Follow along for youth sports coaching humor, relatable moments, and laughs from the sidelines.
+    </div>
+
+</div>
+
+</body>
+</html>
