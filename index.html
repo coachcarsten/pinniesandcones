@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 <style>
 *{
@@ -69,6 +70,10 @@ body{
     min-width:220px;
 }
 
+.social-btn i{
+    font-size:1.3rem;
+}
+
 .social-btn:hover{
     transform:translateY(-3px);
     box-shadow:0 12px 25px rgba(0,0,0,.18);
@@ -123,14 +128,16 @@ body{
 
         <a class="social-btn facebook"
            href="https://facebook.com/Pinniesandcones"
-           target="_blank">
-            👍 Facebook
+           target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+            Facebook
         </a>
 
         <a class="social-btn instagram"
            href="https://instagram.com/pinniesandcones"
-           target="_blank">
-            📸 Instagram
+           target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
         </a>
 
     </div>
